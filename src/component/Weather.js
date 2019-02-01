@@ -1,7 +1,9 @@
 import React from 'react'
 
 class Weather extends React.Component {
+    
     render(){
+        const far = (1.8 * this.props.temperature + 32).toFixed(2)
         
         return(
             <div className="weather__info">
@@ -10,7 +12,8 @@ class Weather extends React.Component {
                </span></p> }
            
             {
-                this.props.temperature && <p className="weather__key">Temperature: <span className="weather__value">{this.props.temperature} °C </span></p>
+                this.props.temperature && <p className="weather__key">Temperature: <span className="weather__value"> {this.props.temperature}℃ | {far} ℉</span>
+                 </p>
                 }
             
             {

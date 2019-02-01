@@ -1,6 +1,6 @@
 import React from 'react'
 import Form from './Form'
-import Weather from './Weather';
+import Weather from './component/Weather';
 import './App.css'
 import Header from './Header'
 
