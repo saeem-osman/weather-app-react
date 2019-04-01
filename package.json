@@ -2,6 +2,10 @@
   "name": "weather-app",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "8.1.1",
+    "npm": "5.0.3"
+  },
   "dependencies": {
     "bootstrap": "^3.3.7",
     "react": "^16.7.0",
